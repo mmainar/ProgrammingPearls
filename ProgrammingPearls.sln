@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingPearls", "Progra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{9ED34C0E-C976-4CBF-97A9-4628F895FB67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powerset", "Powerset\Powerset.csproj", "{6E4CA2B9-8182-411F-84F1-F2399BFE1176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9ED34C0E-C976-4CBF-97A9-4628F895FB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED34C0E-C976-4CBF-97A9-4628F895FB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED34C0E-C976-4CBF-97A9-4628F895FB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4CA2B9-8182-411F-84F1-F2399BFE1176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4CA2B9-8182-411F-84F1-F2399BFE1176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4CA2B9-8182-411F-84F1-F2399BFE1176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4CA2B9-8182-411F-84F1-F2399BFE1176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
