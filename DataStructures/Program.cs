@@ -12,6 +12,7 @@ namespace DataStructures
 
         private static void Main(string[] args)
         {
+            AppDomain.CurrentDomain.AssemblyResolve += OnAssemblyResolve;
             Stream stream =
                 Assembly.GetExecutingAssembly().GetManifestResourceStream("DataStructures.Resources.words.txt");
             if (stream == null)
@@ -70,6 +71,11 @@ namespace DataStructures
 
             Console.WriteLine("Press a key to exit");
             Console.ReadLine();
+        }
+
+        private static Assembly OnAssemblyResolve(object sender, ResolveEventArgs args)
+        {
+            throw new NotImplementedException();
         }
     }
 }

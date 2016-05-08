@@ -66,10 +66,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitVector.cs" />
+    <Compile Include="BitVectorTests.cs" />
+    <Compile Include="EqualIndices.cs" />
+    <Compile Include="EquilibriumIndex.cs" />
+    <Compile Include="FirstQuestion.cs" />
+    <Compile Include="CodeReview.cs" />
+    <Compile Include="ThirdQuestion.cs" />
+    <Compile Include="ThirdQuestionTests.cs" />
+    <Compile Include="SecondQuestionTests.cs" />
+    <Compile Include="FirstQuestionTests.cs" />
+    <Compile Include="PreSuffix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondQuestion.cs" />
+    <Compile Include="Stack.cs" />
     <Compile Include="Trie.cs" />
     <Compile Include="TrieTest.cs" />
+    <Compile Include="WeightedAverage.cs" />
+    <Compile Include="WeightValue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,6 +94,9 @@
     <EmbeddedResource Include="Resources\words.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
